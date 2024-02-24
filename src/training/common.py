@@ -1,0 +1,32 @@
+# Data constants
+DATA_PATH = '../data/FaceWarehouse'
+OUT_MODEL_PATH = 'model1030.pt'
+NB_IDENTITIES = 150
+NB_EXPRESSIONS = 46
+
+# Model constants
+INPUT_DIM_ID = 3 * 11510
+HIDDEN_DIM_ID = 32
+HIDDEN_DIM_EXP = 256
+LATENT_DIM_ID = 128
+LATENT_DIM_EXP = 512
+HIDDEN_DIM_DECODER = 256
+
+# Training constants
+LR = 5e-4
+DECAY = 0.75
+THRESHOLD = 0.1
+PATIENCE = 90
+BATCH = 8
+EPOCHS = 1500
+REG = 1e-4
+RATIO_TRAIN = 0.95
+
+# Loss factors
+W_KL_ID = 0.9
+W_KL_EXP = 0.85
+KL_LIMIT = 1.0
+W_GEO = 1
+KL_WAIT = 1
+KL_STEP_INC = 500
+KL_FACTOR = 1.0

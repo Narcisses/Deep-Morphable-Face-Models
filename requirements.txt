@@ -1,0 +1,8 @@
+torch
+numpy
+trimesh
+pyglet<2
+scipy
+matplotlib
+pyopengl
+pyqt6
